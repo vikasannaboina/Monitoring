@@ -1,0 +1,6 @@
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise-10.0.2.linux-amd64.tar.gz
+tar -zxvf grafana-enterprise-10.0.2.linux-amd64.tar.gz
+cd <extracted file>/bin/
+nohup ./grafana-server &
+
+#it runs on port 3000
