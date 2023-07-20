@@ -2,3 +2,6 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.37.8/promethe
 tar -xzf <downloaded file>
 cd <extracted file>
 nohup ./<promethuesscript> &
+
+
+#it runs on port 9090
